@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Montserrat:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.logo img {
+    margin: 10px;
+    width: 28%;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    cursor: pointer; 
+}
+.navlist {
+     width: 70%;
+     display: flex;
+     align-items: center;
+}
+.navlist li {
+    list-style: none;
+    padding: 20px 23px;
+}
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navlist li a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.rightNav {
+     width: 30%;
+     text-align: right;
+     padding: 0px 23px;
+}
+
+#search {
+    width: 61%;
+    font-size: 17px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url("https://th.bing.com/th/id/R.e7b82a4c3e0dfa99369b2dbf0c95f697?rik=FmiUpS%2fChgtIKQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fEiffel-Tower-Desktop-Wallpapers-HD.jpg&ehk=a5tZxV8LaRswFiGnXMyloWlw1U5H5lRvO%2fTx4sGORnY%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    background-blend-mode: darken;    
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf {
+    width: 30%;
+}
+
+.secondHalf img {
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 41px;
+    text-align: center;
+}
+
+.text-small {
+    font-size: 20px;
+}
+
+.btn {
+    padding: 13px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Fira Sans', sans-serif; 
+    font-size: 20px;
+}
+
+.btn-dark {
+    color: black;
+    
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.section {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.sectionTag {
+    padding: 16px 0px;
+}
+
+.sectionSubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.section-left {
+    flex-direction: row-reverse;
+}
+
+.thumbnail img {
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 15px;
+}
+.paras {
+    padding: 0px 65px;
+}
+
+.contact {
+    background-color: #b0cae1;
+    height: 733px;
+}
+
+.text-center {
+    font-size: 34px;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Fira Sans', sans-serif;;
+}
+
+.form {
+    max-width: 62%;
+    margin: 12px auto;
+}
+
+.form-input {
+    margin: 14px 0;
+    width: 100%;
+    padding: 8px 12px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
